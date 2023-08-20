@@ -1,0 +1,53 @@
+/* tag selector with a property key:value pair */
+h1, h2 {
+    color: green;
+    text-align: center;
+}
+
+/* id selector with two CSS properties */
+#the-id-name-here {
+    padding: 20px;
+    font-size: 30px;
+}
+
+* {
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    background-image: linear-gradient(red, yellow);
+}
+
+#box {
+    border-inline: inherit;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+}
+.center_table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    
+}
+table td {
+    height:33px;
+    width: 100px;
+    font-size: 100px;
+    
+}
+button:hover {
+    background-color: red;
+}
